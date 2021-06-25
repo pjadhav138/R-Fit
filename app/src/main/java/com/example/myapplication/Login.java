@@ -16,10 +16,6 @@ TextView username,email;
         username = findViewById(R.id.username);
         email = findViewById(R.id.email);
 
-        String strusername = getIntent().getStringExtra("username");
-        String strEmail = getIntent().getStringExtra("Email");
 
-        username.setText(strusername);
-        email.setText(strEmail);
     }
 }
